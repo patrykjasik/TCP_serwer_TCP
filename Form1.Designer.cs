@@ -74,6 +74,7 @@
             this.przycisk_start.TabIndex = 3;
             this.przycisk_start.Text = "Start";
             this.przycisk_start.UseVisualStyleBackColor = true;
+            this.przycisk_start.Click += new System.EventHandler(this.przycisk_start_Click);
             // 
             // przycisk_stop
             // 
@@ -83,6 +84,7 @@
             this.przycisk_stop.TabIndex = 4;
             this.przycisk_stop.Text = "Stop";
             this.przycisk_stop.UseVisualStyleBackColor = true;
+            this.przycisk_stop.Click += new System.EventHandler(this.przycisk_stop_Click);
             // 
             // Form1
             // 
@@ -96,6 +98,7 @@
             this.Controls.Add(this.adres);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.my_port)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
